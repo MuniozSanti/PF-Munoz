@@ -142,6 +142,7 @@ img {
 .img-inicio{
     width: 85%;
     height: 18em;
+    max-width: 100%;
 }
 .img-inicio:hover{
     transform: scale(1.1);
