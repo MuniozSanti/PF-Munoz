@@ -136,8 +136,6 @@ img {
     width: 35em;
     height: 11em;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 .h3-inicio{
@@ -146,8 +144,10 @@ img {
 .p-inicio{
     text-align: justify;
     /* padding: 2em 10% 0 10%; */
-    padding-left: 80px;
-    padding-right: 80px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    width: 70%;
+    margin: auto;
 }
 
 .img-inicio{
@@ -280,4 +280,9 @@ p {
         width: 70%;
     }
 
+    .container-3{
+        width:60%;
+        margin: auto;
+        background-color: rgb(163, 163, 163);
+    }
 }
