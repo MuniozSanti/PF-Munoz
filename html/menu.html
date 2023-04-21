@@ -5,40 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pruebitas</title>
+    <title>Bill`s - MENÚ</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+  </head>
+  
+  <body>
+    <header class="header">
+      <a href="#"><img class="logo" src="../imagenes/logo/Bills.png" alt=""></a>
+      <input type="checkbox" id="side-menu" class="side-menu">
+      <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/grid.css">
-</head>
-
-<body>
-
-    <div class="container">
-        <div class="top">
-            <p>Avenida Maipú 1569, Olivos. Martes a domingo de 11 a 19hs.</p>
-        </div>
-
-        <div class="nav">
-            <div id="toggle-menu" class="toggle-menu">
-                <label for="toggle-menu-checkbox">
-                    <img src="../imagenes/hamburguesa2.png" alt="">
-                </label>
-            </div>
-            <input type="checkbox" name="" class="toggle-menu__checkbox" id="toggle-menu-checkbox">
-            <ul id="main-menu" class="main-menu">
-                <li class="main-menu__item logo"><img src="../imagenes/Bills.png" alt=""></li>
-                <li class="main-menu__item"> <a href="../index.html" class="main-menu__link">Inicio</a> </li>
-                <li class="main-menu__item activo"> <a href="menu.html" class="main-menu__link">Menú</a> </li>
-                <li class="main-menu__item"> <a href="fotos.html" class="main-menu__link">Fotos</a> </li>
-                <li class="main-menu__item"> <a href="resenas.html" class="main-menu__link">Reseñas</a> </li>
-                <li class="main-menu__item"> <a href="contacto.html" class="main-menu__link">Contacto</a> </li>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="menu.html" class="activo">MENÚ</a></li>
+                <li><a href="fotos.html">FOTOS</a></li>
+                <li><a href="resenas.html">RESEÑAS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="menu">
+    <div class="menu-page">
         <img class="menu-img" src="../imagenes/menu/1.jpg" alt="">
         <img class="menu-img" src="../imagenes/menu/2.jpg" alt="">
         <img class="menu-img" src="../imagenes/menu/3.jpg" alt="">
