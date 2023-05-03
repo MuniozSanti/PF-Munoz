@@ -188,16 +188,17 @@ ul {
 
 .p-inicio {
   text-align: justify;
-  width: 60%;
+  width: 80%;
   margin: auto;
   font-size: 20px;
+  padding-bottom: 2rem;
 }
 
 .img-inicio {
   max-width: 100%;
   height: 18em;
   max-width: 100%;
-  padding-top: 5em;
+  padding-top: 6em;
 }
 
 /* FIN MAIN */
@@ -553,6 +554,14 @@ footer, p {
   .mapa {
     width: 100%;
     height: 400px;
+  }
+
+  .resenas {
+    gap: 1em;
+    
+  }
+  .res-p{
+    font-size: 14px;
   }
 }
 
